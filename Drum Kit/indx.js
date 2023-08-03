@@ -13,7 +13,7 @@ buttonAnimation(eve.key);
 });
 function makeASound(key){
   switch (key) {
-    case "w":
+    case "w" || case "W":
       var tom1 = new Audio('sounds/tom-1.mp3');
       tom1.play();
       break;
